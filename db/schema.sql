@@ -1,0 +1,2 @@
+CREATE TABLE events (id INTEGER PRIMARY KEY, name TEXT, starts_at TEXT);
+CREATE TABLE users (id INTEGER PRIMARY KEY, email TEXT UNIQUE, pw_hash TEXT);
